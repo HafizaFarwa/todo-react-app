@@ -1,0 +1,67 @@
+
+
+.main_div{
+    background-color:plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.centre_div{
+    background-color:white;
+    height: 80vh;
+    border-radius: 2vw;
+    box-shadow: 5px 5px 40px black;
+}
+.header{
+    text-align: center;
+    size:5rem;
+    background-color: purple;
+    color: aliceblue;
+}
+button{
+border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border-color:transparent;
+    background-color:purple;
+    margin: 7px;
+    font-weight: bold;
+    font-size: 2rem;
+    align-items: center;
+    cursor: pointer;
+    box-shadow:2px 2px 10px black;
+    color:white;
+    
+}
+.btn2{
+ width: 2rem;
+ height: 2rem;
+ margin: 5px;
+ text-align: center;
+ padding: 0;
+ font-size: 1rem;
+ box-shadow:2px 2px 7px black;
+
+}
+
+.input-field {
+    margin: 0rem 2rem !important;
+}
+.list{
+    font-weight:bold;
+    font-family: 'Century';
+    list-style: none;
+    color: purple;
+}
+
+.list li {
+    font-size: 1.2rem;
+}
+.list-item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* flex-direction: row-reverse; */
+}
